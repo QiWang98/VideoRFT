@@ -144,7 +144,7 @@ If you find this work helpful, please consider citing:
 ```
 @article{VideoRFT,
   title={Video-R1: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning},
-  author={Wang, Qi and Yu, Yanrui and Ye, Yuan and Rui, Mao and Zhou, Tianfei},
+  author={Wang, Qi and Yu, Yanrui and Yuan, Ye and Mao, Rui and Zhou, Tianfei},
   journal={arXiv preprint arXiv:2505.XXXXX},
   year={2025}
 }
