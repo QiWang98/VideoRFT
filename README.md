@@ -121,8 +121,7 @@ You can configure these parameters in `src/qwen-vl-utils`.
 
 ### Evaluation Procedure
 
-1. Download our preprocessed evaluation JSONs from: \[[🤗 eval](https://huggingface.co)]
-   Place them in: `/src/r1-v/Evaluation`
+1. Download preprocessed evaluation JSONs from: \[[🤗 eval](https://huggingface.co/datasets/Video-R1/Video-R1-eval)]
 
 2. Download the video data from the official sites of each benchmark and organize them as specified in the JSON files.
 
