@@ -4,9 +4,9 @@
     <!-- </a>&nbsp&nbsp⭐️ <a href="https://github.com/QiWang98/VideoRFT">Project</a>
     </a>&nbsp&nbsp │ &nbsp&nbsp📑 <a href="https://github.com/QiWang98/VideoRFT">ArXiv</a> -->
     </a>&nbsp&nbsp📖 <a href="https://arxiv.org/abs/2505.12434">ArXiv</a>
-    </a>&nbsp&nbsp │ &nbsp&nbsp📀 <a href="https://hf-mirror.com/datasets/QiWang98/VideoRFT-Data">CoT Dataset</a>
-    </a>&nbsp&nbsp │ &nbsp&nbsp📀 <a href="https://hf-mirror.com/datasets/QiWang98/VideoRFT-Data">RL Dataset</a>
-    </a>&nbsp&nbsp │ &nbsp&nbsp🤗 <a href="https://github.com/QiWang98/VideoRFT">Models</a>
+    </a>&nbsp&nbsp │ &nbsp&nbsp📀 <a href="https://huggingface.co/datasets/QiWang98/VideoRFT-Data">CoT Dataset</a>
+    </a>&nbsp&nbsp │ &nbsp&nbsp📀 <a href="https://huggingface.co/datasets/QiWang98/VideoRFT-Data">RL Dataset</a>
+    </a>&nbsp&nbsp │ &nbsp&nbsp🤗 <a href="https://huggingface.co/QiWang98/VideoRFT">Models</a>
 </p>
 
 <!-- 🚀✨🔧✅📝💡🔍📊📀 -->
@@ -40,7 +40,7 @@ To further strength the RL phase, we introduce a novel semantic-consistency rewa
 
 ## <a id="Datasets"> 📀 Datasets</a>
 
-Based on above pipeline, we construct two large-scale datasets, i.e., [📀VideoRFT-CoT-102K](https://hf-mirror.com/datasets/QiWang98/VideoRFT-Data) and [📀VideoRFT-RL-310K](https://hf-mirror.com/datasets/QiWang98/VideoRFT-Data).
+Based on above pipeline, we construct two large-scale datasets, i.e., [📀VideoRFT-CoT-102K](https://huggingface.co/datasets/QiWang98/VideoRFT-Data) and [📀VideoRFT-RL-310K](https://huggingface.co/datasets/QiWang98/VideoRFT-Data).
 <div align="center">
 <img src="./images/dataset.png"  width="50%" />
 </div>
@@ -82,7 +82,7 @@ We begin with supervised fine-tuning on the VideoRFT-CoT dataset for one epoch:
 bash ./src/scripts/run_sft_video.sh
 ```
 
-You may skip this step by directly using our pretrained SFT model from [🤗VideoRFT-SFT](https://huggingface.co). (Coming Soon!)
+You may skip this step by directly using our pretrained SFT model from [🤗VideoRFT-SFT](https://huggingface.co/QiWang98/VideoRFT-SFT).
 
 ### Reinforcement Learning (RL)
 
