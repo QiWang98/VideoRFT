@@ -3,7 +3,7 @@
 <p align="center">
     <!-- </a>&nbsp&nbsp⭐️ <a href="https://github.com/QiWang98/VideoRFT">Project</a>
     </a>&nbsp&nbsp │ &nbsp&nbsp📑 <a href="https://github.com/QiWang98/VideoRFT">ArXiv</a> -->
-    </a>&nbsp&nbsp📖 <a href="https://github.com/QiWang98/VideoRFT">ArXiv</a>
+    </a>&nbsp&nbsp📖 <a href="https://arxiv.org/abs/2505.12434">ArXiv</a>
     </a>&nbsp&nbsp │ &nbsp&nbsp📀 <a href="https://github.com/QiWang98/VideoRFT">CoT Dataset</a>
     </a>&nbsp&nbsp │ &nbsp&nbsp📀 <a href="https://github.com/QiWang98/VideoRFT">RL Dataset</a>
     </a>&nbsp&nbsp │ &nbsp&nbsp🤗 <a href="https://github.com/QiWang98/VideoRFT">Models</a>
@@ -145,7 +145,7 @@ If you find this work helpful, please consider citing:
 @article{VideoRFT,
   title={Video-R1: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning},
   author={Wang, Qi and Yu, Yanrui and Yuan, Ye and Mao, Rui and Zhou, Tianfei},
-  journal={arXiv preprint arXiv:2505.XXXXX},
+  journal={arXiv preprint arXiv:2505.12434},
   year={2025}
 }
 ```
