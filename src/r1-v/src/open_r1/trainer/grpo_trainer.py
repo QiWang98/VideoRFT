@@ -410,18 +410,18 @@ class Qwen2VLGRPOTrainer(Trainer):
         input_copy = self.remove_none_from_data(input_copy)
         
         if inputs[0]['data_type'] == 'image':
-            input_copy[0]['content'][0]['image'] = "/newdata1/VLR-Data" + inputs[0]['path'][1:] 
+            input_copy[0]['content'][0]['image'] = "./VideoRFT-Data" + inputs[0]['path'][1:] 
         elif inputs[0]['data_type'] == 'video':
-            input_copy[0]['content'][0]['video'] = "/newdata1/VLR-Data" + inputs[0]['path'][1:] 
+            input_copy[0]['content'][0]['video'] = "./VideoRFT-Data" + inputs[0]['path'][1:] 
             
         try:
             image_inputs, video_inputs, video_kwargs = process_vision_info(input_copy, return_video_kwargs=True)
         except Exception as e:
             print(f"process_vision_info error, using fixed data, {e}")
             if inputs[0]['data_type'] == 'image':
-                input_copy[0]['content'][0]['image'] = "/newdata1/VLR-Data" + inputs[0]['path'][1:] 
+                input_copy[0]['content'][0]['image'] = "./VideoRFT-Data" + inputs[0]['path'][1:] 
             elif inputs[0]['data_type'] == 'video':
-                input_copy[0]['content'][0]['video'] = "/newdata1/VLR-Data" + inputs[0]['path'][1:] 
+                input_copy[0]['content'][0]['video'] = "./VideoRFT-Data" + inputs[0]['path'][1:] 
                 
             image_inputs, video_inputs, video_kwargs = process_vision_info(input_copy, return_video_kwargs=True)
         
