@@ -461,9 +461,9 @@ class Qwen2VLGRPOVLLMTrainerModified(Trainer):
         data_type = inputs[0]['data_type']
         
         if data_type == 'image':
-            input_copy[0]['content'][0]['image'] = "/newdata1/VLR-Data" + inputs[0]['path'][1:] 
+            input_copy[0]['content'][0]['image'] = "./VideoRFT-Data" + inputs[0]['path'][1:] 
         elif data_type == 'video':
-            input_copy[0]['content'][0]['video'] = "/newdata1/VLR-Data" + inputs[0]['path'][1:] 
+            input_copy[0]['content'][0]['video'] = "./VideoRFT-Data" + inputs[0]['path'][1:] 
         
         
         image_inputs, video_inputs, video_kwargs = process_vision_info(input_copy, return_video_kwargs=True)
