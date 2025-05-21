@@ -11,7 +11,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 torchrun --nproc_per_node="8" \
     --master_port="12349" \
     src/open_r1/sft_video.py \
     --output_dir "./log/VideoRFT-SFT" \
-    --model_name_or_path "/newdata1/Qwen2.5-VL-7B-Instruct" \
+    --model_name_or_path "./Qwen2.5-VL-7B-Instruct" \
     --dataset_name "VideoRFT-CoT-Data.jsonl" \
     --deepspeed local_scripts/zero2.json \
     --per_device_train_batch_size 1 \
