@@ -13,7 +13,7 @@
 
 ## <a id="News"> 📰 News</a>
 - [2025/05/25] We released our Models ([🤗VideoRFT-SFT](https://huggingface.co/QiWang98/VideoRFT-SFT) and [🤗VideoRFT](https://huggingface.co/QiWang98/VideoRFT)) to huggingface.
-- [2025/05/20] We released our [📀CoT Dataset](https://huggingface.co/datasets/QiWang98/VideoRFT-Data) and [📀RL Dataset](https://huggingface.co/datasets/QiWang98/VideoRFT-Data) to huggingface.
+- [2025/05/20] We released our Datasets ([📀CoT Dataset](https://huggingface.co/datasets/QiWang98/VideoRFT-Data) and [📀RL Dataset](https://huggingface.co/datasets/QiWang98/VideoRFT-Data)) to huggingface.
 - [2025/05/18] Our paper is released on [ArXiv](https://arxiv.org/abs/2505.12434), and we have open-sourced our code on [GitHub](https://github.com/QiWang98/VideoRFT)!
 
 ## <a id="Overview"> 🔎 Overview</a>
