@@ -1,4 +1,4 @@
-# 🎥 $\textbf{VideoRFT}$: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning
+# 🎥 $\text{VideoRFT}$: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning
 
 <p align="center">
     <!-- </a>&nbsp&nbsp⭐️ <a href="https://github.com/QiWang98/VideoRFT">Project</a>
@@ -12,7 +12,8 @@
 <!-- 🚀✨🔧✅📝💡🔍📊📀 -->
 
 ## <a id="News"> 📰 News</a>
-- [2025/05/25] We released our Models ([🤗VideoRFT-SFT](https://huggingface.co/QiWang98/VideoRFT-SFT) and [🤗VideoRFT](https://huggingface.co/QiWang98/VideoRFT)) to huggingface.
+- [2025/06/01] We released our 3B Models ([🤗VideoRFT-SFT-3B](https://huggingface.co/QiWang98/VideoRFT-SFT-3B) and [🤗VideoRFT-3B](https://huggingface.co/QiWang98/VideoRFT-3B)) to huggingface.
+- [2025/05/25] We released our 7B Models ([🤗VideoRFT-SFT-7B](https://huggingface.co/QiWang98/VideoRFT-SFT) and [🤗VideoRFT-7B](https://huggingface.co/QiWang98/VideoRFT)) to huggingface.
 - [2025/05/20] We released our Datasets ([📀CoT Dataset](https://huggingface.co/datasets/QiWang98/VideoRFT-Data) and [📀RL Dataset](https://huggingface.co/datasets/QiWang98/VideoRFT-Data)) to huggingface.
 - [2025/05/18] Our paper is released on [ArXiv](https://arxiv.org/abs/2505.12434), and we have open-sourced our code on [GitHub](https://github.com/QiWang98/VideoRFT)!
 
@@ -84,7 +85,7 @@ We begin with supervised fine-tuning on the VideoRFT-CoT dataset for one epoch:
 bash ./src/scripts/run_sft_video.sh
 ```
 
-You may skip this step by directly using our pretrained SFT model from [🤗VideoRFT-SFT](https://huggingface.co/QiWang98/VideoRFT-SFT).
+This step can be skipped by directly using our pretrained SFT models, available at [🤗VideoRFT-SFT-7B](https://huggingface.co/QiWang98/VideoRFT-SFT) or [🤗VideoRFT-SFT-3B](https://huggingface.co/QiWang98/VideoRFT-SFT-3B).
 
 ### Reinforcement Learning (RL)
 
