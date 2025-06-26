@@ -195,12 +195,12 @@ class Qwen2VLGRPOVLLMTrainerModified(Trainer):
 
         # Processing class
         if processing_class is None:
-            if "Qwen" in model_id or "Aria" in model_id:
+            if "Qwen" in model_id or "Aria" in model_id or "VideoRFT" in model_id:
                 processing_class = AutoProcessor.from_pretrained(model_id)
                 pad_token_id = processing_class.tokenizer.pad_token_id
                 processing_class.pad_token_id = pad_token_id
                 processing_class.eos_token_id = processing_class.tokenizer.eos_token_id
-                if "Qwen" in model_id:
+                if "Qwen" in model_id or "VideoRFT" in model_id:
                     processing_class.image_processor.max_pixels = max_pixels
                     processing_class.image_processor.min_pixels = min_pixels
             else:
