@@ -103,8 +103,8 @@ bash ./src/scripts/run_grpo_vllm_qwen25vl.sh
 
 > **Note:** During training, we adopt the following settings for efficiency:
 
-* **Frame resolution**: 128 × 28 × 28
-* **Max frames per video**: 16
+* **VIDEO PIXELS**: 128 × 28 × 28
+* **FPS FRAMES**: 16
 
 All frame-related configurations can be adjusted in `src/qwen-vl-utils`.
 
@@ -112,8 +112,8 @@ All frame-related configurations can be adjusted in `src/qwen-vl-utils`.
 
 > During inference, we increase the maximum frame resolution and length to boost performance:
 
-* **Frame resolution**: 256 × 28 × 28
-* **Max frames per video**: 32
+* **VIDEO PIXELS**: 256 × 28 × 28
+* **FPS FRAMES**: 32
 
 You can configure these parameters in `src/qwen-vl-utils`.
 
