@@ -33,8 +33,8 @@ VIDEO_MIN_PIXELS = 128 * 28 * 28  # set to 256 * 28 * 28 for Evaluation VideoRFT
 VIDEO_MAX_PIXELS = 128 * 28 * 28  # set to 256 * 28 * 28 for Evaluation VideoRFT
 FRAME_FACTOR = 2
 FPS = 2.0
-FPS_MIN_FRAMES = 4
-FPS_MAX_FRAMES = 16 # set to 32 for Evaluation
+FPS_MIN_FRAMES = 16 # set to 32 for Evaluation VideoRFT
+FPS_MAX_FRAMES = 16 # set to 32 for Evaluation VideoRFT
 
 # Set the maximum number of video token inputs.
 # Here, 128K represents the maximum number of input tokens for the VLLM model.
