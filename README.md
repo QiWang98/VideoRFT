@@ -12,6 +12,7 @@
 <!-- 🚀✨🔧✅📝💡🔍📊📀 -->
 
 ## <a id="News"> 📰 News</a>
+- [2025/09/19] Our paper has been **accepted to NeurIPS 2025** 🎉! 
 - [2025/06/01] We released our 3B Models ([🤗VideoRFT-SFT-3B](https://huggingface.co/QiWang98/VideoRFT-SFT-3B) and [🤗VideoRFT-3B](https://huggingface.co/QiWang98/VideoRFT-3B)) to huggingface.
 - [2025/05/25] We released our 7B Models ([🤗VideoRFT-SFT-7B](https://huggingface.co/QiWang98/VideoRFT-SFT) and [🤗VideoRFT-7B](https://huggingface.co/QiWang98/VideoRFT)) to huggingface.
 - [2025/05/20] We released our Datasets ([📀CoT Dataset](https://huggingface.co/datasets/QiWang98/VideoRFT-Data) and [📀RL Dataset](https://huggingface.co/datasets/QiWang98/VideoRFT-Data)) to huggingface.
